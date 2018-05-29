@@ -3,9 +3,9 @@ body, html {
 }
 
 .background {
-    background-image: url("background2.jpg");
+    background-image: url("background.jpg");
     height: 100%; 
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -13,9 +13,9 @@ body, html {
 
 .center {
     position: absolute;
-    /*background-color: rgba(0,0,0,0.6);*/
+    background-color: rgba(0,0,0,0.1);
     color: black;
-    padding-top: 255px;
+    padding-top: 280px;
     height: 100%;
     width: 100%;
 }
