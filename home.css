@@ -11,7 +11,7 @@ body, html {
     background-attachment: fixed;
     overflow-x: hidden;
     position: relative;
-    background-position: bottom;
+    background-position: center center;
 }
 
 #title {
