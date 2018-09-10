@@ -1,0 +1,21 @@
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #1959b7;
+  color: white;
+  padding: 20px 40px 20px 40px;
+}
+
+.fa{
+    color:#fff;
+    height: 30px !important;
+    width: 30px !important;
+    padding-top:7px;
+    border-radius: 50%; 
+    font-size: 12px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
