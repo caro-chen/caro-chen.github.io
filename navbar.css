@@ -1,13 +1,18 @@
 .topnav {
   overflow: hidden;
-  background-color: white;
-  border-bottom: 1px solid #c0c0c0;
+  background: transparent;
+  background-color: transparent;
+  border-color: transparent;
   line-height: normal;
   font-family: 'Nunito Sans', Helvetica, sans-serif;
   position: fixed;
   width: 100%;
   z-index: 100;
   top: 0;
+  border-bottom: 1px solid transparent;
+}
+.navbar.trans {
+  background:transparent !important;  
 }
 
 .topnav a {
@@ -28,7 +33,7 @@
 }
 
 .active {
-  border-bottom: 2px solid #030e64;
+  border-bottom: transparent;
 }
 
 .topnav .icon {
