@@ -17,7 +17,7 @@ body, html {
 #title {
     right: 10%;
     bottom: 15%;
-    font-size: 5vw;
+    font-size: 6vw;
     position: absolute;
     float: right;
     display: block;
@@ -36,21 +36,18 @@ body, html {
 #content h2{
     font-weight: bold;
     color: #1949B7;
-    font-size: 1.7vw;
+    font-size: 24px;
     font-variant: small-caps;
-    line-height: 1.4vh;
-    display: inline-block;
+    margin-top: 0 !important;
+    top: 0;
+
+}
+#date {
+    font-size: 18px;
     float: left;
 }
-
-#content h4 {
-    margin-bottom: 2vw;
-    font-weight: bold;
-    display: inline-block;
-    float: right;
-}
 p {
-    font-size: 1.2vw;
+    font-size: 16px;
     margin-top: 0;
 
 }
@@ -60,6 +57,9 @@ br {
     margin-top: 12px;
 }
 
+.nopad {
+    padding: 0 !important;
+}
 /*read more stuff*/
 .more {
     display: none;
