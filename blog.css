@@ -46,29 +46,19 @@ body, html {
     font-weight: bold;
     color: #1949B7;
     font-size: 1.7vw;
-    margin-bottom: 2vw;
     font-variant: small-caps;
+    display: inline-block;
+    line-height: 1.2vh;
 }
 
-h3 {
+#content h4 {
+    margin-bottom: 2vw;
     font-weight: bold;
-    font-size: 1.4vw;
-    margin-top: 0;
 }
-
-span {
-    font-size: 1.3vw;
-}
-
 p {
     font-size: 1.2vw;
     margin-top: 0;
 
-}
-h4 {
-    text-align: right;
-    font-weight: bold;
-    font-size: 1.2vw;
 }
 br {
     display: block; /* makes it have a width */
