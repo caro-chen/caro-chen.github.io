@@ -2,89 +2,54 @@
 <html>
 <head>
 	<title>Caroline Chen</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--fonts-->
-	<link href='https://fonts.googleapis.com/css?family=Khula' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
-
-	<!--css file-->
-	<link rel="stylesheet" type="text/css" href="website.css">
-
-	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Questrial" rel="stylesheet">
+	
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+	
 	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-	<!--jquery-->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="header.js"></script>
 </head>
-<body style = "font-family: 'Nunito Sans'">
-	<!--About Me-->
-	<div class = "background" style="font-family: 'Khula'">
-		<div class = "center">
-			<center><p style = "font-size: 60px; padding-bottom: 20px"><font style = "color: white;">Hello! I'm Caroline</font></p>
-			<p style = "font-size: 30px;"><font style = "color: white;">Statistics & Data Science Student @ UC Berkeley</font></font></p></center>
-		</div>
+<body style="font-family: 'Nunito Sans', sans-serif;">
+	<div id="background">
+		<div class="topnav" id="myTopnav">
+      	<a href="index.html" class="active">Home</a>
+      	<a href="experience.html">Experience</a>
+      	<a href="blog.html">Blog</a>
+      	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+       		<i class="fa fa-bars"></i>
+      	</a>
+   	</div>
+		<p id="title" style="font-family: 'Questrial', sans-serif;">Hi, I'm Caroline</p>
+		<p id="creds">Photo taken by Sean H. Lee</p>
 	</div>
-	<br>
-	<div class = "text_body">
-		<p style="font-family: 'Montserrat'; font-size: 45px; padding-bottom: 35px; padding-top: 30px"><b>About Me</b></p>
-		<img class = "pic" src = "main_pic.jpg" alt = "picture" style = "width: 270px; margin-right: 50px; margin-bottom: 30px; margin-top: 30px">
-		<p style = "font-size: 22px">I grew up in Fremont, CA, where I attended Mission San Jose High School. During my first year at UC Berkeley, I joined <a href = "https://berkeleypbltech.github.io/PBLPortal/home.html" target="_blank">Phi Beta Lambda</a> and the <a href = "https://susa.berkeley.edu" target="_blank">Statistics Undergraduate Student Association (SUSA)</a>, where I got to work directly with both the applications of data and the raw numerical analyses. I'm currently looking for opportunities in design, consulting, and data analysis.</a></p>
-		<br>
-		<p style = "font-size: 22px">In my free time, I enjoy listening to music, memorizing almost freaky portions of movie scripts, and creating hilarious monstrosities in Photoshop. I'm a serial minimalist, and a huge fan of puns. The fact that I'm a PUNdit is a disaPUNtment to many of my friends. Too much? Okay I'll stop :)</p>
-		<br>
-	</div>
-	<br>
-
-	<hr style="border-top: 1px solid #ccc; background:transparent;" width = "90%">
-	
-	<!--Experience-->
-	<div class = "text_body">
-		<p style="font-family: 'Montserrat'; font-size: 45px; padding-bottom: 35px; padding-top: 30px"><b>Experience</b></p>
-		<!--Twitter-->
-		<img src = "twitter.png" alt = "Twitter Logo" style = "width: 200px; margin-right: 50px;">
-		<p style = "font-size: 22px; padding-bottom: 10px"><b>Twitter</b> | <i>Client Consultant</i>
-			<span style = "float: right;">Feb 2018-May 2018</span></p>
-		<p style="padding-bottom: 50px; font-size: 20px">I was part of a 7-person <a href = "https://twitter.com/TwitterForGood/status/991747650176217088" target="_blank">consulting team</a> contracted by Twitter to help market their newest CSR campaign. I focused primarily on creating website and app mockups using Adobe XD and Adobe Illustrator, respectively. Through designing marketing tactics in a real-world environment, I improved my abilities in presenting ideas effectively. This project was important to me because it allowed me to discover my love for graphic design.</p>
-
-		<!--Asaii-->
-		<img src = "asaii.png" alt = "Asaii Logo" style = "width: 150px; margin-left: 35px; margin-right: 65px; margin-top: 15px;">
-		<p style = "font-size: 22px; padding-bottom: 10px"><b>Asaii</b> | <i>Marketing & PR Intern</i>
-			<span style = "float: right;">Oct 2017-Dec 2017</p>
-		<p style="padding-bottom: 50px; font-size: 20px">I analyzed how social media marketing strategies would affect the growth of the startup. I collaborated with a 5-person team to create a mockup of a Press Kit in Adobe Illustrator. We focused on efficiency and ease of navigation to present rising artists record labels. I also beta-tested the product and provided weekly reports on glitches, bugs, and design.</p>
-		
-		<!--SUSA-->
-		<img src = "susa.png" alt = "SUSA Logo" style = "width: 220px; margin-right: 30px;">
-		<p style = "font-size: 22px; padding-bottom: 10px"><b>SUSA</b> | <i>Research & Publications Editor</i>
-			<span style = "float: right;">May 2018-Present</span></p>
-		<p style="padding-bottom: 50px; font-size: 20px">I am one of three editors managing a committee of approximately 18 members, each of whom is pursuing their own unique research project. I provide support in the technical aspects of data cleaning and analysis, and in the final writing stage. Each of the members has their own deadlines, and the editors manage them all simultaneously. My job also includes finding publication opportunities for the committee.</p>
-
-		<!--PBL-->
-		<img src = "pbl.jpg" alt = "PBL Logo" style = "width: 150px; margin-left: 35px; margin-right: 65px; margin-top: 10px">
-		<p style = "font-size: 22px; padding-bottom: 10px"><b>Phi Beta Lambda</b> | <i>Technology Committee Chair</i>
-			<span style = "float: right;">May 2018-Present</span></p>
-		<p style="padding-bottom: 70px; font-size: 20px">Ever since its founding, the tech committee has taught only web dev. As a chair for the Fall 2018 semester, I am completely redesigning the curriculum to provide data analysis skills more relevant to the corporate environment: R, Excel, and an intro to the Adobe Creative Cloud. I aim to equip my committee members with technical skills that they can take into any profession.</p>
-
-		<a href = "Caroline_Chen_Resume.pdf" style="font-size: 22px;" target="_blank">View my full resume</a>
+	<div id="about">
+		<h2>About Me</h2>
+		<p>I grew up in Fremont, California, surrounded by mathematics and computer science. However, I chose to spend most of my time with music. Growing up playing piano and violin meant that I spent a lot of time in an orchestra -- and by a lot of time, I meant going home at 2:00 am sometimes. The passenger seat of my mom's car served as a bed more often than my actual bed, but I wouldn't have traded my passion or my orchestra friends for the world.</p>
+		<p>Music was, is, and will always be a part of my life, but how I spent my free time began to change when I entered UC Berkeley. It started with the business organization <a href="https://www.berkeley-pbl.com">Phi Beta Lambda</a> (not a fraternity, as many assume), which exposed me to an industry run by data. Strategy consulting fascinated me in the way we broke down complex problems into simpler pieces of data and put them back together again to extrapolate a coherent plan of action. However, I wanted to work closer with the numerical data itself: the next semester, I joined the <a href="https://susa.berkeley.edu">Statistics Undergraduate Student Association</a>, where I am currently a director for the Research & Publications Committee.</p>
+		<p>Outside of my academics, I dabble in web development, graphic design, and puns. So many puns. I disaPUNt many of my friends.</p>
 	</div>
 
-	<!--footer-->
-	<div class = "footer">
-		<p style="text-align: left; padding-top: 10px">Let's have a chat! Contact me at <a href = "mailto:carolinejchen@berkeley.edu">carolinejchen@berkeley.edu</a>.
-			<span style="float:right;">&copy Caroline Chen 2018</span>
-		</p>
-	</div>
+	<hr style="width: 90%">
 
+    <div id="contact">
+    	<h2>Contact Me</h2>
+    	<p>If you have any feedback or just would like to say hi, I'd love to chat! Contact me through <a href="mailto:carolinejchen@berkeley.edu">email</a> or <a href="https://www.linkedin.com/in/caroline-j-chen">LinkedIn</a>. Thank you for your time, and I'm excited to meet you!</p>
+	</div>
 </body>
 </html>
