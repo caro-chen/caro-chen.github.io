@@ -47,13 +47,16 @@ body, html {
     color: #1949B7;
     font-size: 1.7vw;
     font-variant: small-caps;
+    line-height: 1.4vh;
     display: inline-block;
-    line-height: 1.2vh;
+    float: left;
 }
 
 #content h4 {
     margin-bottom: 2vw;
     font-weight: bold;
+    display: inline-block;
+    float: right;
 }
 p {
     font-size: 1.2vw;
