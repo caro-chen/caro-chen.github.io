@@ -1,36 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Caroline Chen</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Caroline Chen | Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Questrial" rel="stylesheet">
-	
-	<!--CSS-->
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Avenir|Questrial" rel="stylesheet">
+
+	<!-- CSS Files -->
 	<link rel="stylesheet" type="text/css" href="home.css">
 	<link rel="stylesheet" type="text/css" href="navbar.css">
 
-	
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	
+	<!-- JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="header.js"></script>
+	<script src="navbar.js"></script>
 </head>
-<body style="font-family: 'Nunito Sans', sans-serif;">
-	<div id="background">
+
+<body style="font-family: 'Avenir', sans-serif;">
+	<!-- Navbar -->
+	<div id = "background">
 		<div class="topnav" id="menu">
       	<a href="index.html" class="active">Home</a>
       	<a href="experience.html">Experience</a>
@@ -41,19 +34,30 @@
    	</div>
 		<p id="title" style="font-family: 'Questrial', sans-serif;">Hi, I'm Caroline</p>
 	</div>
-	<div id="about">
-		<h2>About Me</h2>
-		<p>I grew up in Fremont, California, surrounded by mathematics and computer science. However, I chose to spend most of my time with music. Growing up playing piano and violin meant that I spent a lot of time in an orchestra -- and by a lot of time, I meant going home at 2:00 am sometimes. The passenger seat of my mom's car served as a bed more often than my actual bed, but I wouldn't have traded my passion or my orchestra friends for the world.</p>
-		<p>Music was, is, and will always be a part of my life, but how I spent my free time began to change when I entered UC Berkeley. It started with the business organization <a href="https://www.berkeley-pbl.com">Phi Beta Lambda</a> (not a fraternity, as many assume), which exposed me to an industry run by data. Strategy consulting fascinated me in the way we broke down complex problems into simpler pieces of data and put them back together again to extrapolate a coherent plan of action. However, I wanted to work closer with the numerical data itself: the next semester, I joined the <a href="https://susa.berkeley.edu">Statistics Undergraduate Student Association</a>, where I am currently a director for the Research & Publications Committee.</p>
-		<p>Outside of my academics, I dabble in web development, graphic design, and puns. So many puns. I disaPUNt many of my friends.</p>
+
+	<div class = "section">
+		<div class = "aboutText">
+			<h2>About Me</h2>
+			<hr>
+			<p>Hi there, and thanks for visiting this website! I am currently a sophomore at UC Berkeley studying statistics and data science. Outside of numbers and code, I am involved with both the business and the design community on campus. As a former Research & Publications Director at our <a href="https://susa.berkeley.edu">undergraduate statistics association</a> and a Project Manager at <a href="https://www.berkeley-pbl.com">a general business organization</a>, I have created dynamic presentations and led technical workshops in an effort to foster other students with similar interests.</p>
+
+			<p>Outside of my schoolwork, I am an avid musician. I started violin and piano at the ages of 5 and 7 respectively, and both instruments have played an integral role in shaping me into the person that I am today.</p>
+		</div>
+		<div class = "aboutPic">
+			<center><img src="images/trebleclef.png" style="height: 300px;"></center>
+		</div>
 	</div>
 
-	<hr style="width: 90%">
+	<div class = "section">
+		<div class = "contactPic">
+			<center><img src="images/intro.png" style="height: 400px;"></center>
+		</div>
+		<div class = "contactText">
+			<h2>Contact Me</h2>
+			<hr align="right">
+			<p>Found a bug? Got feedback? Just want to chat? Please don't hesitate to reach out to me through <a href="https://www.linkedin.com/in/caroline-j-chen">LinkedIn</a> or <a href="mailto:carolinejchen@berkeley.edu">email</a>. Although I'm currently looking for opportunities in project management and data analytics, I'm always open to discussing other fields and expanding my horizons. I look forward to meeting you!</p>
+		</div>
+	</div>
 
-  <div id="contact" style="margin-bottom: 7%">
-    	<h2>Contact Me</h2>
-    	<p>If you have any feedback or just would like to say hi, I'd love to chat! Contact me through <a href="mailto:carolinejchen@berkeley.edu">email</a> or <a href="https://www.linkedin.com/in/caroline-j-chen">LinkedIn</a>. Thank you for your time, and I'm excited to meet you!</p>
-	</div>
-	</div>
 </body>
 </html>

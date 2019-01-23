@@ -18,7 +18,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -26,14 +26,15 @@
 }
 
 .topnav a:hover {
-  color: #08ade6 !important;
+  font-weight: bold !important;
+  color: white;
   text-decoration: none;
   transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
 }
 
 .active {
-  border-bottom: transparent;
+  border-bottom: 2px solid white;
 }
 
 .topnav .icon {
